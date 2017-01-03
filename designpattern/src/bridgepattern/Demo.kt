@@ -2,7 +2,6 @@ package bridgepattern
 
 /**
  * Created by wenchaokong on 3/01/2017.
- * http://blog.csdn.net/xingjiarong/article/details/50132727
  * 桥接模式的优点:
 
 1、分离抽象接口及其实现部分。

@@ -24,8 +24,8 @@
       <file leaf-file-name="Demo.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/designpattern/src/bridgepattern/Demo.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+            <state relative-caret-position="380">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -531,8 +531,8 @@
         <state relative-caret-position="171">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1483418030000" expanded="true" signature="23:70" ph="/**...*/" />
-            <marker date="1483418030000" expanded="true" signature="89:137" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="23:70" ph="/**...*/" />
+            <marker date="1483423379000" expanded="true" signature="89:137" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -550,8 +550,8 @@
         <state relative-caret-position="133">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <marker date="1483419398000" expanded="true" signature="23:70" ph="/**...*/" />
-            <marker date="1483419398000" expanded="true" signature="110:137" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="23:70" ph="/**...*/" />
+            <marker date="1483423379000" expanded="true" signature="110:137" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -561,9 +561,9 @@
         <state relative-caret-position="304">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1483419964000" expanded="true" signature="23:70" ph="/**...*/" />
-            <marker date="1483419964000" expanded="true" signature="145:311" ph="{...}" />
-            <marker date="1483419964000" expanded="true" signature="260:308" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="23:70" ph="/**...*/" />
+            <marker date="1483423379000" expanded="true" signature="145:311" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="260:308" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -573,9 +573,9 @@
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <marker date="1483420855000" expanded="true" signature="23:70" ph="/**...*/" />
-            <marker date="1483420855000" expanded="true" signature="98:241" ph="{...}" />
-            <marker date="1483420855000" expanded="true" signature="157:239" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="23:70" ph="/**...*/" />
+            <marker date="1483423379000" expanded="true" signature="98:241" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="157:239" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -585,17 +585,17 @@
         <state relative-caret-position="95">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <marker date="1483420980000" expanded="true" signature="23:70" ph="/**...*/" />
-            <marker date="1483420980000" expanded="true" signature="100:246" ph="{...}" />
-            <marker date="1483420980000" expanded="true" signature="159:243" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="23:70" ph="/**...*/" />
+            <marker date="1483423379000" expanded="true" signature="100:246" ph="{...}" />
+            <marker date="1483423379000" expanded="true" signature="159:243" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/bridgepattern/Demo.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        <state relative-caret-position="380">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>
