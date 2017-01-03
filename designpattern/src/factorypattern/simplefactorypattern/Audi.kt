@@ -1,4 +1,4 @@
-package simplefactorypattern
+package factorypattern.simplefactorypattern
 
 /**
  * Created by wenchaokong on 4/01/2017.
