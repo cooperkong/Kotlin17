@@ -1,6 +1,6 @@
 package factorypattern.factorymethodpattern
 
-import factorypattern.simplefactorypattern.Car
+import factorypattern.Car
 
 /**
  * Created by wenchaokong on 4/01/2017.

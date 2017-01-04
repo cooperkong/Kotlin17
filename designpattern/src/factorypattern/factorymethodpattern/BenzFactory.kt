@@ -1,7 +1,7 @@
 package factorypattern.factorymethodpattern
 
-import factorypattern.simplefactorypattern.Benz
-import factorypattern.simplefactorypattern.Car
+import factorypattern.Benz
+import factorypattern.Car
 
 /**
  * Created by wenchaokong on 4/01/2017.
