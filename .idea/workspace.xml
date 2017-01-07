@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3943d7ac-e280-485d-bd41-3107d834e4d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designpattern/src/iteratorpattern/MovieContainer.kt" afterPath="$PROJECT_DIR$/designpattern/src/iteratorpattern/MovieContainer.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/templatepattern/BasketballGame.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/templatepattern/Demo.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/templatepattern/FootballGame.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/templatepattern/Game.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Kotlin17.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MovieContainer.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/iteratorpattern/MovieContainer.kt">
+      <file leaf-file-name="Demo.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpattern/src/templatepattern/Demo.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="456">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -110,6 +114,10 @@
         <option value="$PROJECT_DIR$/designpattern/src/iteratorpattern/Demo.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/iteratorpattern/TvContainer.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/iteratorpattern/MovieContainer.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/templatepattern/Game.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/templatepattern/BasketballGame.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/templatepattern/FootballGame.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/templatepattern/Demo.kt" />
       </list>
     </option>
   </component>
@@ -201,6 +209,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templatepattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -219,10 +231,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iteratorpattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -236,6 +244,7 @@
       <recent name="factorypattern" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/designpattern/src/templatepattern" />
       <recent name="$PROJECT_DIR$/designpattern/src/iteratorpattern" />
       <recent name="$PROJECT_DIR$/designpattern/src/commandpattern" />
       <recent name="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern" />
@@ -659,40 +668,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/Audi.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <marker date="1483496622000" expanded="true" signature="24:71" ph="/**...*/" />
-            <marker date="1483496622000" expanded="true" signature="118:156" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/Bmw.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1483496622000" expanded="true" signature="24:71" ph="/**...*/" />
-            <marker date="1483496622000" expanded="true" signature="116:153" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/Benz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1483496622000" expanded="true" signature="24:71" ph="/**...*/" />
-            <marker date="1483496622000" expanded="true" signature="117:154" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/Audi.kt" />
     <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/Car.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1433,6 +1408,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <marker date="1483677301000" expanded="true" signature="25:522" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
+            <marker date="1483677301000" expanded="true" signature="555:969" ph="{...}" />
+            <marker date="1483677301000" expanded="true" signature="679:715" ph="{...}" />
+            <marker date="1483677301000" expanded="true" signature="758:966" ph="{...}" />
+            <marker date="1483677301000" expanded="true" signature="828:878" ph="{...}" />
+            <marker date="1483677301000" expanded="true" signature="913:959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/templatepattern/Game.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1483765086000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 7/01/2017. ...*/" />
+            <marker date="1483765086000" expanded="true" signature="92:263" ph="{...}" />
+            <marker date="1483765086000" expanded="true" signature="195:261" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/templatepattern/BasketballGame.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <marker date="1483765161000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 7/01/2017. ...*/" />
+            <marker date="1483765161000" expanded="true" signature="102:340" ph="{...}" />
+            <marker date="1483765161000" expanded="true" signature="134:181" ph="{...}" />
+            <marker date="1483765161000" expanded="true" signature="212:261" ph="{...}" />
+            <marker date="1483765161000" expanded="true" signature="290:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/templatepattern/FootballGame.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <marker date="1483765218000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 7/01/2017. ...*/" />
+            <marker date="1483765218000" expanded="true" signature="100:332" ph="{...}" />
+            <marker date="1483765218000" expanded="true" signature="132:177" ph="{...}" />
+            <marker date="1483765218000" expanded="true" signature="208:255" ph="{...}" />
+            <marker date="1483765218000" expanded="true" signature="284:329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/templatepattern/Demo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
