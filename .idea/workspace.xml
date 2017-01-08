@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3943d7ac-e280-485d-bd41-3107d834e4d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Circle.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Demo.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Rectangle.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Shape.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/ShapeDecorator.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt" />
     </list>
     <ignored path="Kotlin17.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +26,8 @@
       <file leaf-file-name="RedBorderShape.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="437">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -118,8 +112,8 @@
         <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/Circle.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderCircle.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/ShapeDecorator.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/Demo.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt" />
       </list>
     </option>
   </component>
@@ -1961,8 +1955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="437">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding />
         </state>
       </provider>
