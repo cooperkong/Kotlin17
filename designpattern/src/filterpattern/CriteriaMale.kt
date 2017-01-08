@@ -5,9 +5,6 @@ package filterpattern
  */
 class CriteriaMale : Criteria{
 
-    override fun meetCriteria(persons: List<Person>): List<Person> {
-        val ret = persons.filter { it.gender.equals("male", true) }
-        return ret
-    }
+    override fun meetCriteria(persons: List<Person>) = persons.filter { it.gender.equals("male", true) }
 
 }
