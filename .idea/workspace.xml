@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3943d7ac-e280-485d-bd41-3107d834e4d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designpattern/src/filterpattern/AndCriteria.kt" afterPath="$PROJECT_DIR$/designpattern/src/filterpattern/AndCriteria.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaFemale.kt" afterPath="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaFemale.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaMale.kt" afterPath="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaMale.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaSingle.kt" afterPath="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaSingle.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Circle.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Demo.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Rectangle.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/Shape.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/decoratorpattern/ShapeDecorator.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Kotlin17.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CriteriaSingle.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaSingle.kt">
+      <file leaf-file-name="RedBorderShape.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="95">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -66,13 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpattern/src/simplefactorypattern/Bmw.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/simplefactorypattern/Benz.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/simplefactorypattern/CarFactory.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/simplefactorypattern/Demo.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/simplefactorypattern/Demo.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/AbstractCarFactory.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/BenzFactory.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/BmwFactory.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/AudiFactory.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/Demo.kt" />
@@ -117,6 +113,13 @@
         <option value="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaFemale.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaMale.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/filterpattern/CriteriaSingle.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/Shape.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/Rectangle.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/Circle.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderCircle.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/ShapeDecorator.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/decoratorpattern/Demo.kt" />
       </list>
     </option>
   </component>
@@ -227,7 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filterpattern" />
+              <option name="myItemId" value="decoratorpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,20 +252,7 @@
       <recent name="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.filterpattern.DemoKt">
-    <configuration default="false" name="prototypepattern.Demo1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="prototypepattern.Demo1Kt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="designpattern" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.decoratorpattern.DemoKt">
     <configuration default="false" name="builderpattern.DemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="builderpattern.DemoKt" />
@@ -305,6 +295,19 @@
     <configuration default="false" name="filterpattern.DemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="filterpattern.DemoKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="designpattern" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="decoratorpattern.DemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="decoratorpattern.DemoKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -560,19 +563,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.prototypepattern.Demo1Kt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.builderpattern.DemoKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.commandpattern.DemoKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.builderpattern.DemoKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.commandpattern.DemoKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.decoratorpattern.DemoKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.commandpattern.DemoKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.builderpattern.DemoKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.prototypepattern.Demo1Kt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.decoratorpattern.DemoKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.commandpattern.DemoKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.builderpattern.DemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -667,62 +670,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/AbstractCarFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern/AudiFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/simplefactorypattern/CarFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <marker date="1483496622000" expanded="false" signature="52:150" ph="..." />
-            <marker date="1483496622000" expanded="true" signature="152:199" ph="/**...*/" />
-            <marker date="1483496622000" expanded="true" signature="258:494" ph="{...}" />
-            <marker date="1483496622000" expanded="true" signature="409:478" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/AbstractFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <marker date="1483497814000" expanded="true" signature="74:121" ph="/**...*/" />
-            <marker date="1483497814000" expanded="true" signature="152:219" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/Gun.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/bridgepattern/DrawAPI.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <marker date="1483423379000" expanded="true" signature="23:70" ph="/**...*/" />
-            <marker date="1483423379000" expanded="true" signature="89:137" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/bridgepattern/RedCircle.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1948,6 +1895,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding>
+            <marker date="1483837648000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
+            <marker date="1483837648000" expanded="true" signature="102:220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/Rectangle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <marker date="1483909489000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
+            <marker date="1483909489000" expanded="true" signature="97:167" ph="{...}" />
+            <marker date="1483909489000" expanded="true" signature="123:164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/Circle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1483909561000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
+            <marker date="1483909561000" expanded="true" signature="94:160" ph="{...}" />
+            <marker date="1483909561000" expanded="true" signature="120:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/Shape.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <marker date="1483909433000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
+            <marker date="1483909433000" expanded="true" signature="89:107" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/ShapeDecorator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <marker date="1483910236000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
+            <marker date="1483910236000" expanded="true" signature="126:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/Demo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <marker date="1483910289000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
+            <marker date="1483910289000" expanded="true" signature="105:358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/decoratorpattern/RedBorderShape.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
