@@ -11,4 +11,8 @@ class SomeSocket {
             println("connecting to socket...")
         }
     }
+
+    fun sum (a : IntArray){
+        a.sum()
+    }
 }

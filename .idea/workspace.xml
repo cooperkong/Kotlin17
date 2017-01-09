@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3943d7ac-e280-485d-bd41-3107d834e4d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tricks/src/explosiveplaceholders/SomeTasks.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tricks/src/semanticvalidation/Demo.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tricks/src/semanticvalidation/SomeClass.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/facadepattern/Demo.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/facadepattern/Facade.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/facadepattern/Heater.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/facadepattern/Light.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpattern/src/facadepattern/Tv.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tricks/src/anythingandnothing/SomeSocket.kt" afterPath="$PROJECT_DIR$/tricks/src/anythingandnothing/SomeSocket.kt" />
     </list>
     <ignored path="Kotlin17.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SomeClass.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tricks/src/semanticvalidation/SomeClass.kt">
+      <file leaf-file-name="Demo.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpattern/src/facadepattern/Demo.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="152">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,13 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/Gun.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/AK47.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/M4.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/AudiFactory.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/AbstractFactory.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/factorypattern/abstractfactorypattern/Demo.kt" />
-        <option value="$PROJECT_DIR$/designpattern/src/bridgepattern/Circle.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/flyweightpattern/ShapeFactory.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/flyweightpattern/Demo.kt" />
         <option value="$PROJECT_DIR$/designpattern/src/flyweightpattern/FlyweightFactory.kt" />
@@ -118,6 +113,13 @@
         <option value="$PROJECT_DIR$/tricks/src/explosiveplaceholders/SomeTasks.kt" />
         <option value="$PROJECT_DIR$/tricks/src/semanticvalidation/SomeClass.kt" />
         <option value="$PROJECT_DIR$/tricks/src/semanticvalidation/Demo.kt" />
+        <option value="$PROJECT_DIR$/tricks/src/anythingandnothing/Demo.kt" />
+        <option value="$PROJECT_DIR$/tricks/src/anythingandnothing/SomeSocket.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/facadepattern/Light.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/facadepattern/Heater.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/facadepattern/Tv.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/facadepattern/Facade.kt" />
+        <option value="$PROJECT_DIR$/designpattern/src/facadepattern/Demo.kt" />
       </list>
     </option>
   </component>
@@ -157,9 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,15 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tricks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="semanticvalidation" />
+              <option name="myItemId" value="designpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,7 +217,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tricks" />
+              <option name="myItemId" value="designpattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kotlin17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kotlin17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -232,12 +243,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="explosiveplaceholders" />
+              <option name="myItemId" value="facadepattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,20 +268,7 @@
       <recent name="$PROJECT_DIR$/designpattern/src/factorypattern/factorymethodpattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.semanticvalidation.DemoKt">
-    <configuration default="false" name="commandpattern.DemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="commandpattern.DemoKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="designpattern" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.facadepattern.DemoKt">
     <configuration default="false" name="iteratorpattern.DemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="iteratorpattern.DemoKt" />
@@ -319,6 +318,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="tricks" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="facadepattern.DemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="facadepattern.DemoKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="designpattern" />
       <envs />
       <method />
     </configuration>
@@ -567,19 +579,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.commandpattern.DemoKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.decoratorpattern.DemoKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.semanticvalidation.DemoKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.decoratorpattern.DemoKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.semanticvalidation.DemoKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.facadepattern.DemoKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.semanticvalidation.DemoKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.decoratorpattern.DemoKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.commandpattern.DemoKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.facadepattern.DemoKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.semanticvalidation.DemoKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.decoratorpattern.DemoKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.filterpattern.DemoKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.iteratorpattern.DemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +623,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -674,368 +686,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/Library.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-          <folding>
-            <marker date="1483505235000" expanded="false" signature="0:600" ph="/ Copyright 2010-2016 JetBrains s.r.o. .../" />
-            <marker date="1483505235000" expanded="true" signature="656:796" ph="/** Returns a string representation of the object. Can be called with a null receiver, in which case ...*/" />
-            <marker date="1483505235000" expanded="true" signature="833:1029" ph="/** Concatenates this string with the string representation of the given [other] object. If either the receiver ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1085:1194" ph="/** Returns an array of objects of the given type with the given [size], initialized with null values. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1269:1331" ph="/** Returns an array containing the specified elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1416:1486" ph="/** Returns an array containing the specified [Double] numbers. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1551:1620" ph="/** Returns an array containing the specified [Float] numbers. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1682:1750" ph="/** Returns an array containing the specified [Long] numbers. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1809:1876" ph="/** Returns an array containing the specified [Int] numbers. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1932:1996" ph="/** Returns an array containing the specified characters. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2055:2124" ph="/** Returns an array containing the specified [Short] numbers. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2186:2254" ph="/** Returns an array containing the specified [Byte] numbers. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2313:2381" ph="/** Returns an array containing the specified boolean values. ...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
-          <folding>
-            <marker date="1459498892000" expanded="false" signature="0:215" ph="/.../" />
-            <marker date="1459498892000" expanded="false" signature="243:594" ph="..." />
-            <marker date="1459498892000" expanded="true" signature="596:2369" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="2428:2489" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="2558:2751" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="3265:3483" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="3503:3514" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="3557:3563" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="3606:3963" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="3616:3734" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="4066:4539" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="4569:4826" ph="{...}" />
-            <marker date="1459498892000" expanded="false" signature="4878:4889" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="4923:4929" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="4935:5856" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="5905:5996" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="6002:7211" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="7245:7537" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="7543:8250" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="8291:8544" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="8550:8906" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="8964:9686" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="9692:10136" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="10190:10636" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="10642:10896" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="10962:11240" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="11246:11959" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="11984:11995" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="12011:12017" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="12023:14878" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="14913:15332" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="15338:16122" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="16150:16267" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="16273:17054" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="17087:17098" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="17118:17124" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="17130:19046" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="19075:19086" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="19123:19129" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="19135:21036" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="21067:21078" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="21137:21143" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="21237:23317" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="23364:24019" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="24025:24153" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="24159:24654" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="24698:24969" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="24975:25402" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="25431:25620" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="25626:26922" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="27039:27438" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="27444:28750" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="28824:29141" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="29147:29646" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="29692:29963" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="29969:30401" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="30432:30621" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="30627:32243" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="32366:32767" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="32773:34407" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="34485:34804" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="34810:35362" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="35412:35690" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="35696:36196" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="36231:36427" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="36433:37675" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="37810:38217" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="38223:39439" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="39525:39850" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="39856:40237" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="40312:41993" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="40556:40689" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="40739:40918" ph="{...}" />
-            <marker date="1459498892000" expanded="false" signature="40954:40969" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="40990:41000" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="41039:41179" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="41237:41549" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="41610:41987" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="41999:42047" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="42124:43819" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="42374:42507" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="42558:42738" ph="{...}" />
-            <marker date="1459498892000" expanded="false" signature="42774:42789" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="42810:42820" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="42859:42999" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="43058:43371" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="43433:43812" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="43825:43875" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="43956:45676" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="44218:44351" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="44404:44586" ph="{...}" />
-            <marker date="1459498892000" expanded="false" signature="44622:44637" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="44658:44668" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="44707:44847" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="44908:45223" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="45287:45670" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="45682:46017" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="46284:46391" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="46508:47045" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="46580:46691" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="47051:47115" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="47207:47608" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="47778:47962" ph="{...}" />
-            <marker date="1459498892000" expanded="false" signature="48003:48014" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="48082:48088" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/flyweightpattern/Demo.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <marker date="1483506321000" expanded="true" signature="33:70" ph="..." />
-            <marker date="1483506321000" expanded="true" signature="72:119" ph="/** Created by wenchaokong on 4/01/2017. ...*/" />
-            <marker date="1483506321000" expanded="true" signature="151:425" ph="{...}" />
-            <marker date="1483506321000" expanded="true" signature="270:358" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/flyweightpattern/FlyweightFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <marker date="1483507238000" expanded="true" signature="33:124" ph="..." />
-            <marker date="1483507238000" expanded="true" signature="126:362" ph="/** Created by wenchaokong on 4/01/2017. ...*/" />
-            <marker date="1483507238000" expanded="true" signature="386:752" ph="{...}" />
-            <marker date="1483507238000" expanded="true" signature="409:479" ph="{...}" />
-            <marker date="1483507238000" expanded="true" signature="515:691" ph="{...}" />
-            <marker date="1483507238000" expanded="true" signature="576:666" ph="{...}" />
-            <marker date="1483507238000" expanded="true" signature="715:750" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/Cloneable.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <marker date="1483505235000" expanded="false" signature="0:600" ph="/ Copyright 2010-2015 JetBrains s.r.o. .../" />
-            <marker date="1483505235000" expanded="true" signature="618:728" ph="/** Classes that inherit from this interface support creating field-by-field copies of their instances. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="756:891" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="762:838" ph="/** Creates and returns a field-by-field copy of this object. ...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-          <folding>
-            <marker date="1459498892000" expanded="false" signature="0:215" ph="/.../" />
-            <marker date="1459498892000" expanded="false" signature="244:712" ph="..." />
-            <marker date="1459498892000" expanded="true" signature="714:5207" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="6128:6371" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="6389:6400" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="6433:6439" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="6445:6816" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="6843:6854" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="6870:6876" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="6882:7513" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="7576:7587" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="7620:7626" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="7632:8444" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="8525:8536" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="8573:8579" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="8585:9475" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="9566:10177" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="10183:10677" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="10719:10730" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="10745:10751" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="10757:10805" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="10832:11105" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="11111:12478" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="12607:13399" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="13194:13308" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="13405:20396" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="20452:27315" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="28121:28578" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="28619:28630" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="28666:28672" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="28678:29391" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="29441:29452" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="29501:29507" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="29513:29999" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="30041:30052" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="30115:30121" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="30127:30820" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="30873:31342" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="31348:31929" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="31970:31981" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="32016:32022" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="32028:32768" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="32818:32829" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="32867:32873" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="32879:33543" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="33583:33594" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="33650:33656" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="33662:34201" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="34243:34254" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="34284:34290" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="34296:34832" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="34884:34895" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="34929:34935" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="34941:35373" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="35417:35428" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="35460:35466" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="35472:36021" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="36077:36088" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="36126:36132" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="36138:36672" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="36716:36727" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="36759:36765" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="36771:37308" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="37364:37375" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="37413:37419" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="37425:37691" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="37717:37728" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="37749:37755" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="37794:37915" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="37921:38143" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="38179:38233" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="38239:38672" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="38709:38720" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="38765:38771" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="38777:39195" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="39231:39242" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="39287:39293" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="39299:39949" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="39987:39998" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="40064:40070" ph=" }" />
-            <marker date="1459498892000" expanded="true" signature="40076:40202" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="40248:40464" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="40470:40977" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="41021:41202" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="41208:41646" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="41673:41758" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="41764:43223" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="43253:44297" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="44303:44483" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="44568:44710" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="44716:45454" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="45506:45617" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="45623:47036" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="47085:47965" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="47971:49528" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="49580:50051" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="50107:50392" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="50442:51303" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="50735:50844" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="50939:51040" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="51438:53568" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="51741:52235" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="53141:53265" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="53574:53839" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="53906:54012" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="54080:54487" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="54090:54254" ph="//..." />
-            <marker date="1459498892000" expanded="true" signature="54570:54734" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="54807:54941" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="54947:55237" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="55321:55364" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="55370:55451" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="55557:55597" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="55603:56536" ph="/**...*/" />
-            <marker date="1459498892000" expanded="true" signature="56582:56761" ph="{...}" />
-            <marker date="1459498892000" expanded="true" signature="56767:57111" ph="/**...*/" />
-            <marker date="1459498892000" expanded="false" signature="57142:57153" ph=" { " />
-            <marker date="1459498892000" expanded="false" signature="57192:57198" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/prototypepattern/Homework.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <marker date="1483586916000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 5/01/2017. ...*/" />
-            <marker date="1483586916000" expanded="true" signature="109:255" ph="{...}" />
-            <marker date="1483586916000" expanded="true" signature="178:253" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/prototypepattern/MathHomework.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <marker date="1483587030000" expanded="true" signature="46:93" ph="/** Created by wenchaokong on 5/01/2017. ...*/" />
-            <marker date="1483587030000" expanded="true" signature="125:304" ph="{...}" />
-            <marker date="1483587030000" expanded="true" signature="174:237" ph="{...}" />
-            <marker date="1483587030000" expanded="true" signature="274:301" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/prototypepattern/Demo1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <marker date="1483587224000" expanded="true" signature="26:1269" ph="/** Created by wenchaokong on 5/01/2017. ...*/" />
-            <marker date="1483587224000" expanded="true" signature="1298:1399" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/builderpattern/Builder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <marker date="1483661190000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483661190000" expanded="true" signature="94:190" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/builderpattern/ConcretBuilder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <marker date="1483662160000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483662160000" expanded="true" signature="105:339" ph="{...}" />
-            <marker date="1483662160000" expanded="true" signature="200:265" ph="{...}" />
-            <marker date="1483662160000" expanded="true" signature="306:336" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,11 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1483661742000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483661742000" expanded="true" signature="85:202" ph="{...}" />
-            <marker date="1483661742000" expanded="true" signature="163:200" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,12 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <marker date="1483662250000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483662250000" expanded="true" signature="86:360" ph="{...}" />
-            <marker date="1483662250000" expanded="true" signature="164:245" ph="{...}" />
-            <marker date="1483662250000" expanded="true" signature="278:358" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,10 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1483663001000" expanded="true" signature="24:670" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483663001000" expanded="true" signature="702:878" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,10 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1483673659000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483673659000" expanded="true" signature="87:108" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,11 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1483673757000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483673757000" expanded="true" signature="112:177" ph="{...}" />
-            <marker date="1483673757000" expanded="true" signature="142:174" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,17 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <marker date="1483505235000" expanded="false" signature="0:600" ph="/ Copyright 2010-2015 JetBrains s.r.o. .../" />
-            <marker date="1483505235000" expanded="true" signature="618:964" ph="/** Represents an array (specifically, a Java array when targeting the JVM platform). ...*/" />
-            <marker date="1483505235000" expanded="true" signature="999:2097" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="1005:1214" ph="/** Creates a new array with the specified [size], where each element is calculated by calling the specified ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1279:1456" ph="/** Returns the array element at the specified [index]. This method can be called using the ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1505:1704" ph="/** Sets the array element at the specified [index] to the specified [value]. This method can ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1766:1829" ph="/** Returns the number of elements in the array. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1860:1944" ph="/** Creates an iterator for iterating over the elements of the array. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1998:2053" ph="/** Creates a shallow copy of the array. ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,12 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <marker date="1483673983000" expanded="true" signature="44:91" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483673983000" expanded="true" signature="104:277" ph="{...}" />
-            <marker date="1483673983000" expanded="true" signature="175:208" ph="{...}" />
-            <marker date="1483673983000" expanded="true" signature="231:275" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,10 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <marker date="1483674040000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483674040000" expanded="true" signature="103:312" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,11 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1483674079000" expanded="true" signature="24:71" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483674079000" expanded="true" signature="113:179" ph="{...}" />
-            <marker date="1483674079000" expanded="true" signature="143:176" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,12 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <marker date="1483674243000" expanded="true" signature="24:275" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483674243000" expanded="true" signature="287:468" ph="{...}" />
-            <marker date="1483674243000" expanded="true" signature="352:398" ph="{...}" />
-            <marker date="1483674243000" expanded="true" signature="419:466" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,14 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <marker date="1483505235000" expanded="false" signature="0:600" ph="/ Copyright 2010-2015 JetBrains s.r.o. .../" />
-            <marker date="1483505235000" expanded="true" signature="618:714" ph="/** The root of the Kotlin class hierarchy. Every Kotlin class has [Any] as a superclass. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="737:2362" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="743:1671" ph="/** Indicates whether some other object is &quot;equal to&quot; this one. Implementations must fulfil the following ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1735:2214" ph="/** Returns a hash code value for the object.  The general contract of hashCode is: ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2256:2321" ph="/** Returns a string representation of the object. ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,10 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <marker date="1483676082000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483676082000" expanded="true" signature="91:143" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,10 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <marker date="1483676489000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483676489000" expanded="true" signature="92:128" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,10 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <marker date="1483677066000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483677066000" expanded="true" signature="104:304" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,14 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <marker date="1483677149000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483677149000" expanded="true" signature="102:512" ph="{...}" />
-            <marker date="1483677149000" expanded="true" signature="227:260" ph="{...}" />
-            <marker date="1483677149000" expanded="true" signature="300:509" ph="{...}" />
-            <marker date="1483677149000" expanded="true" signature="370:420" ph="{...}" />
-            <marker date="1483677149000" expanded="true" signature="455:502" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1232,14 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <marker date="1483677301000" expanded="true" signature="25:522" ph="/** Created by wenchaokong on 6/01/2017. ...*/" />
-            <marker date="1483677301000" expanded="true" signature="555:969" ph="{...}" />
-            <marker date="1483677301000" expanded="true" signature="679:715" ph="{...}" />
-            <marker date="1483677301000" expanded="true" signature="758:966" ph="{...}" />
-            <marker date="1483677301000" expanded="true" signature="828:878" ph="{...}" />
-            <marker date="1483677301000" expanded="true" signature="913:959" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,11 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1483765086000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 7/01/2017. ...*/" />
-            <marker date="1483765086000" expanded="true" signature="92:263" ph="{...}" />
-            <marker date="1483765086000" expanded="true" signature="195:261" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,13 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <marker date="1483765161000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 7/01/2017. ...*/" />
-            <marker date="1483765161000" expanded="true" signature="102:340" ph="{...}" />
-            <marker date="1483765161000" expanded="true" signature="134:181" ph="{...}" />
-            <marker date="1483765161000" expanded="true" signature="212:261" ph="{...}" />
-            <marker date="1483765161000" expanded="true" signature="290:337" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1273,13 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <marker date="1483765218000" expanded="true" signature="25:72" ph="/** Created by wenchaokong on 7/01/2017. ...*/" />
-            <marker date="1483765218000" expanded="true" signature="100:332" ph="{...}" />
-            <marker date="1483765218000" expanded="true" signature="132:177" ph="{...}" />
-            <marker date="1483765218000" expanded="true" signature="208:255" ph="{...}" />
-            <marker date="1483765218000" expanded="true" signature="284:329" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,10 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <marker date="1483765296000" expanded="true" signature="25:488" ph="/** Created by wenchaokong on 7/01/2017. ...*/" />
-            <marker date="1483765296000" expanded="true" signature="520:638" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,10 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <marker date="1483832242000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-            <marker date="1483832242000" expanded="true" signature="89:152" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <marker date="1483832140000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,478 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="1141" column="72" selection-start-line="1141" selection-start-column="71" selection-end-line="1141" selection-end-column="72" />
-          <folding>
-            <marker date="1483505235000" expanded="false" signature="259:394" ph="..." />
-            <marker date="1483505235000" expanded="true" signature="396:449" ph="/** Returns 1st element from the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="533:554" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="556:609" ph="/** Returns 2nd element from the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="693:714" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="716:769" ph="/** Returns 3rd element from the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="853:874" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="876:929" ph="/** Returns 4th element from the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1013:1034" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="1036:1089" ph="/** Returns 5th element from the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1173:1194" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="1196:1262" ph="/** Returns `true` if [element] is found in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1361:1458" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="1460:1603" ph="/** Returns an element at the given [index] or throws an [IndexOutOfBoundsException] if the [index] is out of bounds of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1656:1832" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="1834:1971" ph="/** Returns an element at the given [index] or throws an [IndexOutOfBoundsException] if the [index] is out of bounds of this list. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2055:2080" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="2082:2237" ph="/** Returns an element at the given [index] or the result of calling the [defaultValue] function if the [index] is out of bounds of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2322:2665" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="2530:2632" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="2667:2816" ph="/** Returns an element at the given [index] or the result of calling the [defaultValue] function if the [index] is out of bounds of this list. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2932:3020" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="3022:3134" ph="/** Returns an element at the given [index] or `null` if the [index] is out of bounds of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="3194:3493" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="3373:3475" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="3495:3601" ph="/** Returns an element at the given [index] or `null` if the [index] is out of bounds of this list. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="3692:3728" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="3730:3838" ph="/** Returns the first element matching the given [predicate], or `null` if no such element was found. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="3937:3974" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="3976:4083" ph="/** Returns the last element matching the given [predicate], or `null` if no such element was found. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="4186:4222" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="4224:4331" ph="/** Returns the last element matching the given [predicate], or `null` if no such element was found. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="4430:4466" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="4468:4565" ph="/** Returns first element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="4604:4877" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="4679:4869" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="4879:4970" ph="/** Returns first element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="5005:5101" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="5103:5236" ph="/** Returns the first element matching the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="5307:5466" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="5468:5543" ph="/** Returns the first element, or `null` if the collection is empty. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="5589:5916" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="5628:5742" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="5759:5908" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="5918:5987" ph="/** Returns the first element, or `null` if the list is empty. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="6029:6076" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="6078:6182" ph="/** Returns the first element matching the given [predicate], or `null` if element was not found. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="6260:6344" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="6346:6495" ph="/** Returns an element at the given [index] or the result of calling the [defaultValue] function if the [index] is out of bounds of this list. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="6605:6693" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="6695:6801" ph="/** Returns an element at the given [index] or `null` if the [index] is out of bounds of this list. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="6851:6924" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="6926:7020" ph="/** Returns first index of [element], or -1 if the collection does not contain element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="7105:7292" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="7199:7276" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="7294:7382" ph="/** Returns first index of [element], or -1 if the list does not contain element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="7463:7494" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="7496:7628" ph="/** Returns index of the first element matching the given [predicate], or -1 if the collection does not contain such element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="7708:7844" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="7751:7828" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="7846:7972" ph="/** Returns index of the first element matching the given [predicate], or -1 if the list does not contain such element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="8048:8184" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="8091:8168" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="8186:8317" ph="/** Returns index of the last element matching the given [predicate], or -1 if the collection does not contain such element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="8396:8567" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="8462:8544" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="8569:8694" ph="/** Returns index of the last element matching the given [predicate], or -1 if the list does not contain such element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="8769:8968" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="8849:8952" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="8895:8946" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="8970:9070" ph="/** Returns the last element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="9108:9486" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="9182:9478" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="9488:9582" ph="/** Returns the last element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="9616:9720" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="9722:9854" ph="/** Returns the last element matching the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="9924:10227" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="9998:10101" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="10032:10095" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="10229:10361" ph="/** Returns the last element matching the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="10427:10690" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="10507:10603" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="10692:10785" ph="/** Returns last index of [element], or -1 if the collection does not contain element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="10874:11100" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="10995:11077" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="11102:11189" ph="/** Returns last index of [element], or -1 if the list does not contain element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="11274:11309" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="11311:11385" ph="/** Returns the last element, or `null` if the collection is empty. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="11430:11795" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="11532:11787" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="11797:11865" ph="/** Returns the last element, or `null` if the list is empty. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="11906:11960" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="11962:12069" ph="/** Returns the last element matching the given [predicate], or `null` if no such element was found. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="12146:12294" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="12198:12276" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="12232:12270" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="12296:12403" ph="/** Returns the last element matching the given [predicate], or `null` if no such element was found. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="12476:12670" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="12556:12652" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="12672:12790" ph="/** Returns the single element, or throws an exception if the collection is empty or has more than one element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="12830:13260" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="12906:13252" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="13262:13374" ph="/** Returns the single element, or throws an exception if the list is empty or has more than one element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="13410:13607" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="13609:13748" ph="/** Returns the single element matching the given [predicate], or throws exception if there is no or more than one matching element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="13820:14238" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="13896:14110" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="13930:14104" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="14240:14341" ph="/** Returns single element, or `null` if the collection is empty or has more than one element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="14388:14736" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="14483:14728" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="14738:14833" ph="/** Returns single element, or `null` if the list is empty or has more than one element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="14876:14923" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="14925:15065" ph="/** Returns the single element matching the given [predicate], or `null` if element was not found or more than one element was found. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="15144:15408" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="15220:15360" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="15254:15354" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="15410:15486" ph="/** Returns a list containing all elements except first [n] elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="15536:16388" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="15700:16210" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="15928:16204" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="15968:16068" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16074:16170" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16220:16257" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16299:16347" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16390:16465" ph="/** Returns a list containing all elements except last [n] elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="16515:16635" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16637:16743" ph="/** Returns a list containing all elements except last elements that satisfy the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="16824:17090" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16846:17065" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16929:17059" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="16980:17049" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="17092:17199" ph="/** Returns a list containing all elements except first elements that satisfy the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="17280:17528" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="17444:17510" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="17530:17612" ph="/** Returns a list containing only elements matching the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="17690:17740" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="17742:17979" ph="/** Returns a list containing only elements matching the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="18069:18126" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="18128:18373" ph="/** Appends all elements matching the given [predicate] to the given [destination]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="18504:18639" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="18525:18614" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="18641:18740" ph="/** Returns a list containing all elements that are instances of specified type parameter R. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="18836:18885" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="18887:18995" ph="/** Appends all elements that are instances of specified type parameter R to the given [destination]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="19105:19200" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="19202:19287" ph="/** Returns a list containing all elements not matching the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="19368:19421" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="19423:19493" ph="/** Returns a list containing all elements that are not `null`. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="19553:19599" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="19601:19680" ph="/** Appends all elements that are not `null` to the given [destination]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="19779:19877" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="19879:19973" ph="/** Appends all elements not matching the given [predicate] to the given [destination]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="20095:20197" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="20199:20289" ph="/** Appends all elements matching the given [predicate] to the given [destination]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="20408:20509" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="20511:20601" ph="/** Returns a list containing elements at indices in the specified [indices] range. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="20659:20779" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="20781:20850" ph="/** Returns a list containing elements at specified [indices]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="20913:21119" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="21065:21101" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="21121:21177" ph="/** Returns a list containing first [n] elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="21227:21644" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="21367:21456" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="21529:21603" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="21646:21701" ph="/** Returns a list containing last [n] elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="21751:22195" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="22014:22099" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="22105:22177" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="22197:22281" ph="/** Returns a list containing last elements satisfying the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="22362:22862" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="22483:22840" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="22530:22834" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="22725:22824" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="22864:22949" ph="/** Returns a list containing first elements satisfying the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="23030:23181" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="23085:23163" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="23183:23233" ph="/** Reverses elements in the list in-place. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="23280:23323" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="23325:23383" ph="/** Returns a list with elements in reversed order. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="23431:23568" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="23570:23704" ph="/** Sorts elements in the list in-place according to natural sort order of the value returned by specified [selector] function. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="23807:23858" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="23860:24005" ph="/** Sorts elements in the list in-place descending according to natural sort order of the value returned by specified [selector] function. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="24118:24179" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="24181:24277" ph="/** Sorts elements in the list in-place descending according to their natural sort order. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="24347:24379" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="24381:24468" ph="/** Returns a list of all elements sorted according to their natural sort order. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="24530:24778" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="24560:24732" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="24780:24916" ph="/** Returns a list of all elements sorted according to natural sort order of the value returned by specified [selector] function. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="25021:25067" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="25069:25216" ph="/** Returns a list of all elements sorted descending according to natural sort order of the value returned by specified [selector] function. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="25331:25387" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="25389:25487" ph="/** Returns a list of all elements sorted descending according to their natural sort order. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="25559:25600" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="25602:25691" ph="/** Returns a list of all elements sorted according to the specified [comparator]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="25769:26033" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="25799:25973" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="26035:26124" ph="/** Returns an array of Boolean containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="26187:26322" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="26324:26410" ph="/** Returns an array of Byte containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="26464:26596" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="26598:26684" ph="/** Returns an array of Char containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="26738:26870" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="26872:26960" ph="/** Returns an array of Double containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="27020:27154" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="27156:27243" ph="/** Returns an array of Float containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="27300:27433" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="27435:27520" ph="/** Returns an array of Int containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="27571:27702" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="27704:27790" ph="/** Returns an array of Long containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="27844:27976" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="27978:28065" ph="/** Returns an array of Short containing all of the elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="28122:28255" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="28257:28566" ph="/** Returns a [Map] containing key-value pairs provided by [transform] function ...*/" />
-            <marker date="1483505235000" expanded="true" signature="28658:28856" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="28858:29219" ph="/** Returns a [Map] containing the elements from the given collection indexed by the key ...*/" />
-            <marker date="1483505235000" expanded="true" signature="29303:29505" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="29507:29869" ph="/** Returns a [Map] containing the values provided by [valueTransform] and indexed by [keySelector] functions applied to elements of the given collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="29982:30200" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="30202:30538" ph="/** Populates and returns the [destination] mutable map with key-value pairs, ...*/" />
-            <marker date="1483505235000" expanded="true" signature="30660:30775" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="30688:30750" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="30777:31136" ph="/** Populates and returns the [destination] mutable map with key-value pairs, ...*/" />
-            <marker date="1483505235000" expanded="true" signature="31287:31418" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="31315:31393" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="31420:31675" ph="/** Populates and returns the [destination] mutable map with key-value pairs ...*/" />
-            <marker date="1483505235000" expanded="true" signature="31805:31907" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="31833:31882" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="31909:31979" ph="/** Appends all elements to the given [destination] collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="32068:32155" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="32093:32130" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="32157:32204" ph="/** Returns a [HashSet] of all elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="32256:32337" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="32339:32391" ph="/** Returns a [List] containing all elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="32437:32713" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="32467:32656" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="32715:32794" ph="/** Returns a [MutableList] filled with all elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="32854:32964" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="32966:33045" ph="/** Returns a [MutableList] filled with all elements of this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="33107:33137" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="33139:33272" ph="/** Returns a [Set] of all elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="33316:33631" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="33346:33563" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="33633:33682" ph="/** Returns a [SortedSet] of all elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="33776:33817" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="33819:33952" ph="/** Returns a [SortedSet] of all elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="34059:34110" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="34112:34259" ph="/** Returns a single list of all elements yielded from results of [transform] function being invoked on each element of original collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="34345:34396" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="34398:34556" ph="/** Appends all elements yielded from results of [transform] function being invoked on each element of original collection, to the given [destination]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="34683:34814" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="34711:34789" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="34816:35210" ph="/** Groups elements of the original collection by the key returned by the given [keySelector] function ...*/" />
-            <marker date="1483505235000" expanded="true" signature="35296:35369" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="35371:35842" ph="/** Groups values returned by the [valueTransform] function applied to each element of the original collection ...*/" />
-            <marker date="1483505235000" expanded="true" signature="35957:36046" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="36048:36376" ph="/** Groups elements of the original collection by the key returned by the given [keySelector] function ...*/" />
-            <marker date="1483505235000" expanded="true" signature="36504:36693" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="36532:36668" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="36695:37100" ph="/** Groups values returned by the [valueTransform] function applied to each element of the original collection ...*/" />
-            <marker date="1483505235000" expanded="true" signature="37257:37462" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="37285:37437" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="37464:37602" ph="/** Returns a list containing the results of applying the given [transform] function ...*/" />
-            <marker date="1483505235000" expanded="true" signature="37722:37796" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="37798:38106" ph="/** Returns a list containing the results of applying the given [transform] function ...*/" />
-            <marker date="1483505235000" expanded="true" signature="38238:38319" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="38321:38643" ph="/** Returns a list containing only the non-null results of applying the given [transform] function ...*/" />
-            <marker date="1483505235000" expanded="true" signature="38741:38802" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="38804:39135" ph="/** Applies the given [transform] function to each element and its index in the original collection ...*/" />
-            <marker date="1483505235000" expanded="true" signature="39274:39396" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="39398:39715" ph="/** Applies the given [transform] function to each element and its index in the original collection ...*/" />
-            <marker date="1483505235000" expanded="true" signature="39840:39957" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="39959:40111" ph="/** Returns a list containing only the non-null results of applying the given [transform] function ...*/" />
-            <marker date="1483505235000" expanded="true" signature="40197:40251" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="40253:40414" ph="/** Applies the given [transform] function to each element in the original collection ...*/" />
-            <marker date="1483505235000" expanded="true" signature="40541:40642" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="40644:40791" ph="/** Applies the given [transform] function to each element of the original collection ...*/" />
-            <marker date="1483505235000" expanded="true" signature="40904:40994" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="40996:41095" ph="/** Returns a lazy [Iterable] of [IndexedValue] for each element of the original collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="41162:41208" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="41210:41399" ph="/** Returns a list containing only distinct elements from the given collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="41447:41490" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="41492:41738" ph="/** Returns a list containing only elements from the given collection ...*/" />
-            <marker date="1483505235000" expanded="true" signature="41816:42000" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="41895:41982" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="42002:42206" ph="/** Returns a set containing all elements that are contained by both this set and the specified collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="42278:42355" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="42357:42580" ph="/** Returns a set containing all elements that are contained by this collection and not contained by the specified collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="42651:42728" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="42730:42912" ph="/** Returns a mutable set containing all distinct elements from the given collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="42970:43101" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="43103:43400" ph="/** Returns a set containing all distinct elements from both collections. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="43468:43542" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="43544:43614" ph="/** Returns `true` if all elements match the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="43689:43772" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="43774:43839" ph="/** Returns `true` if collection has at least one element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="43882:43940" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="43942:44022" ph="/** Returns `true` if at least one element matches the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="44097:44179" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="44181:44242" ph="/** Returns the number of elements in this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="44283:44355" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="44357:44418" ph="/** Returns the number of elements in this collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="44496:44515" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="44517:44590" ph="/** Returns the number of elements matching the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="44663:44759" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="44761:44910" ph="/** Accumulates value starting with [initial] value and applying [operation] from left to right to current accumulator value and each element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="44992:45120" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="45122:45479" ph="/** Accumulates value starting with [initial] value and applying [operation] from left to right ...*/" />
-            <marker date="1483505235000" expanded="true" signature="45573:45728" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="45730:45879" ph="/** Accumulates value starting with [initial] value and applying [operation] from right to left to each element and current accumulator value. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="45962:46209" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="46014:46184" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="46097:46178" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="46211:46562" ph="/** Accumulates value starting with [initial] value and applying [operation] from right to left ...*/" />
-            <marker date="1483505235000" expanded="true" signature="46657:46960" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="46709:46935" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="46792:46929" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="46962:47017" ph="/** Performs the given [action] on each element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="47117:47162" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="47164:47401" ph="/** Performs the given [action] on each element, providing sequential index with the element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="47483:47549" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="47551:47625" ph="/** Returns the largest element or `null` if there are no elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="47679:47898" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="47813:47881" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="47900:48021" ph="/** Returns the first element yielding the largest value of the given function or `null` if there are no elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="48105:48455" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="48280:48434" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="48368:48428" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="48457:48593" ph="/** Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="48663:48905" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="48797:48888" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="48907:48982" ph="/** Returns the smallest element or `null` if there are no elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="49036:49255" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="49170:49238" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="49257:49379" ph="/** Returns the first element yielding the smallest value of the given function or `null` if there are no elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="49463:49813" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="49638:49792" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="49726:49786" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="49815:49952" ph="/** Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="50022:50264" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="50156:50247" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="50266:50326" ph="/** Returns `true` if the collection has no elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="50370:50428" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="50430:50499" ph="/** Returns `true` if no elements match the given [predicate]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="50575:50657" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="50659:50810" ph="/** Accumulates value starting with the first element and applying [operation] from left to right to current accumulator value and each element. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="50885:51191" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="51097:51166" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="51193:51551" ph="/** Accumulates value starting with the first element and applying [operation] from left to right ...*/" />
-            <marker date="1483505235000" expanded="true" signature="51638:51971" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="51868:51946" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="51973:52119" ph="/** Accumulates value starting with last element and applying [operation] from right to left to each element and current accumulator value. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="52195:52522" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="52424:52497" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="52524:52872" ph="/** Accumulates value starting with last element and applying [operation] from right to left ...*/" />
-            <marker date="1483505235000" expanded="true" signature="52960:53339" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="53189:53314" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="53341:53456" ph="/** Returns the sum of all values produced by [selector] function applied to each element in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="53524:53630" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="53573:53613" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="53632:53747" ph="/** Returns the sum of all values produced by [selector] function applied to each element in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="53827:53938" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="53881:53921" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="53940:54094" ph="/** Returns an original collection containing all the non-`null` elements, throwing an [IllegalArgumentException] if there are any `null` elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="54159:54375" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="54187:54310" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="54218:54304" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="54377:54531" ph="/** Returns an original collection containing all the non-`null` elements, throwing an [IllegalArgumentException] if there are any `null` elements. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="54588:54800" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="54616:54739" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="54647:54733" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="54802:54931" ph="/** Returns a list containing all elements of the original collection without the first occurrence of the given [element]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="54995:55185" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="55187:55324" ph="/** Returns a list containing all elements of the original collection except the elements contained in the given [elements] array. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="55400:55531" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="55533:55675" ph="/** Returns a list containing all elements of the original collection except the elements contained in the given [elements] collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="55750:55912" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="55914:56054" ph="/** Returns a list containing all elements of the original collection except the elements contained in the given [elements] sequence. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="56129:56265" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="56267:56396" ph="/** Returns a list containing all elements of the original collection without the first occurrence of the given [element]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="56493:56522" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="56524:56743" ph="/** Splits the original collection into pair of lists, ...*/" />
-            <marker date="1483505235000" expanded="true" signature="56839:57094" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="56930:57061" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="56964:57006" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="57012:57055" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="57096:57202" ph="/** Returns a list containing all elements of the original collection and then the given [element]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="57265:57420" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="57422:57528" ph="/** Returns a list containing all elements of the original collection and then the given [element]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="57593:57702" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="57704:57833" ph="/** Returns a list containing all elements of the original collection and then all elements of the given [elements] array. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="57908:58068" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="58070:58199" ph="/** Returns a list containing all elements of the original collection and then all elements of the given [elements] array. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="58276:58406" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="58408:58542" ph="/** Returns a list containing all elements of the original collection and then all elements of the given [elements] collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="58616:58776" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="58778:58912" ph="/** Returns a list containing all elements of the original collection and then all elements of the given [elements] collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="58988:59281" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="59022:59172" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="59178:59279" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="59283:59415" ph="/** Returns a list containing all elements of the original collection and then all elements of the given [elements] sequence. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="59489:59594" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="59596:59728" ph="/** Returns a list containing all elements of the original collection and then all elements of the given [elements] sequence. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="59804:59923" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="59925:60031" ph="/** Returns a list containing all elements of the original collection and then the given [element]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="60127:60155" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="60157:60263" ph="/** Returns a list containing all elements of the original collection and then the given [element]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="60361:60389" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="60391:60524" ph="/** Returns a list of pairs built from elements of both collections with same indexes. List has length of shortest collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="60604:60652" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="60654:60815" ph="/** Returns a list of values built from elements of both collections with same indexes using provided [transform]. List has length of shortest collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="60914:61225" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="61117:61207" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="61227:61360" ph="/** Returns a list of pairs built from elements of both collections with same indexes. List has length of shortest collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="61439:61487" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="61489:61650" ph="/** Returns a list of values built from elements of both collections with same indexes using provided [transform]. List has length of shortest collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="61748:62095" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="62013:62077" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="62097:62450" ph="/** Appends the string from all the elements separated using [separator] and using the given [prefix] and [postfix] if supplied. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="62694:63181" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="62766:63072" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="62859:63055" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="63183:63534" ph="/** Creates a string from all the elements separated using [separator] and using the given [prefix] and [postfix] if supplied. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="63762:63868" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="63870:63922" ph="/** Returns this collection as an [Iterable]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="64011:64030" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="64032:64151" ph="/** Creates a [Sequence] instance that wraps the original collection returning its elements when being iterated. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="64205:64248" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="64250:64338" ph="/** Returns a list containing all elements that are instances of specified class. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="64432:64488" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="64490:64587" ph="/** Appends all elements that are instances of specified class to the given [destination]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="64722:64867" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="64869:64935" ph="/** Returns an average value of elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="65017:65193" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="65094:65143" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="65195:65261" ph="/** Returns an average value of elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="65345:65521" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="65422:65471" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="65523:65589" ph="/** Returns an average value of elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="65669:65845" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="65746:65795" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="65847:65913" ph="/** Returns an average value of elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="65995:66171" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="66072:66121" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="66173:66239" ph="/** Returns an average value of elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="66323:66499" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="66400:66449" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="66501:66567" ph="/** Returns an average value of elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="66653:66829" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="66730:66779" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="66831:66892" ph="/** Returns the sum of all elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="66963:67059" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67012:67042" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67061:67122" ph="/** Returns the sum of all elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="67195:67291" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67244:67274" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67293:67354" ph="/** Returns the sum of all elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="67423:67519" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67472:67502" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67521:67582" ph="/** Returns the sum of all elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="67654:67752" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67705:67735" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67754:67815" ph="/** Returns the sum of all elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="67890:67991" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67944:67974" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="67993:68054" ph="/** Returns the sum of all elements in the collection. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="68132:68233" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="68186:68216" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1798,11 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="108" selection-start-line="7" selection-start-column="108" selection-end-line="7" selection-end-column="108" />
-          <folding>
-            <marker date="1483836037000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-            <marker date="1483836037000" expanded="true" signature="153:343" ph="{...}" />
-            <marker date="1483836037000" expanded="true" signature="222:340" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1810,10 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <marker date="1483836102000" expanded="true" signature="43:177" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-            <marker date="1483836102000" expanded="true" signature="209:1056" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1821,10 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <marker date="1483837648000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-            <marker date="1483837648000" expanded="true" signature="154:271" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1832,10 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <marker date="1483837648000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-            <marker date="1483837648000" expanded="true" signature="102:212" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1843,10 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <marker date="1483837648000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-            <marker date="1483837648000" expanded="true" signature="100:210" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1854,10 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <marker date="1483837648000" expanded="true" signature="23:70" ph="/** Created by wenchaokong on 8/01/2017. ...*/" />
-            <marker date="1483837648000" expanded="true" signature="102:220" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1865,11 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <marker date="1483909489000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483909489000" expanded="true" signature="97:167" ph="{...}" />
-            <marker date="1483909489000" expanded="true" signature="123:164" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1877,11 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1483909561000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483909561000" expanded="true" signature="94:160" ph="{...}" />
-            <marker date="1483909561000" expanded="true" signature="120:158" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1889,10 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <marker date="1483909433000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483909433000" expanded="true" signature="89:107" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1900,10 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <marker date="1483910236000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483910236000" expanded="true" signature="126:162" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1911,10 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <marker date="1483910289000" expanded="true" signature="26:73" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483910289000" expanded="true" signature="105:358" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1922,40 +935,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <marker date="1483911966000" expanded="true" signature="26:399" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483911966000" expanded="true" signature="459:654" ph="{...}" />
-            <marker date="1483911966000" expanded="true" signature="509:565" ph="{...}" />
-            <marker date="1483911966000" expanded="true" signature="610:651" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tricks/src/explosiveplaceholders/SomeTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tricks/src/explosiveplaceholders/SomeTask.java" />
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/util/Standard.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <marker date="1483505235000" expanded="true" signature="90:181" ph="/** An exception is thrown to indicate that a method body remains to be implemented. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="287:376" ph="/** Always throws [NotImplementedError] stating that operation is not implemented. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="471:635" ph="/** Always throws [NotImplementedError] stating that operation is not implemented. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="787:858" ph="/** Calls the specified function [block] and returns its result. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="943:1048" ph="/** Calls the specified function [block] with `this` value as its receiver and returns its result. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1140:1253" ph="/** Calls the specified function [block] with the given [receiver] as its receiver and returns its result. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1366:1473" ph="/** Calls the specified function [block] with `this` value as its receiver and returns `this` value. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1582:1687" ph="/** Calls the specified function [block] with `this` value as its argument and returns its result. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="1783:1943" ph="/** Executes the given function [action] specified number of [times]. ...*/" />
-            <marker date="1483505235000" expanded="true" signature="2032:2097" ph="{...}" />
-            <marker date="1483505235000" expanded="true" signature="2066:2095" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1963,13 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1483915767000" expanded="true" signature="31:78" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483915767000" expanded="true" signature="105:296" ph="{...}" />
-            <marker date="1483915767000" expanded="true" signature="130:293" ph="{...}" />
-            <marker date="1483915767000" expanded="true" signature="148:194" ph="{...}" />
-            <marker date="1483915767000" expanded="true" signature="198:287" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1977,10 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <marker date="1483916998000" expanded="true" signature="28:75" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
-            <marker date="1483916998000" expanded="true" signature="107:177" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1988,6 +964,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tricks/src/anythingandnothing/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/tricks/src/anythingandnothing/Demo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <marker date="1483917846000" expanded="true" signature="28:75" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/Nothing.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tricks/src/anythingandnothing/SomeSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1483919547000" expanded="true" signature="28:289" ph="/** Created by wenchaokong on 9/01/2017. ...*/" />
+            <marker date="1483919547000" expanded="true" signature="307:479" ph="{...}" />
+            <marker date="1483919547000" expanded="true" signature="341:426" ph="{...}" />
+            <marker date="1483919547000" expanded="true" signature="362:420" ph="{...}" />
+            <marker date="1483919547000" expanded="true" signature="454:477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/designpattern.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/facadepattern/Light.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <marker date="1483997704000" expanded="true" signature="23:71" ph="/** Created by wenchaokong on 10/01/2017. ...*/" />
+            <marker date="1483997704000" expanded="true" signature="83:130" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/facadepattern/Heater.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <marker date="1483997704000" expanded="true" signature="23:71" ph="/** Created by wenchaokong on 10/01/2017. ...*/" />
+            <marker date="1483997704000" expanded="true" signature="84:132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/facadepattern/Tv.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <marker date="1483997704000" expanded="true" signature="23:71" ph="/** Created by wenchaokong on 10/01/2017. ...*/" />
+            <marker date="1483997704000" expanded="true" signature="80:124" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/facadepattern/Facade.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1483997704000" expanded="true" signature="23:71" ph="/** Created by wenchaokong on 10/01/2017. ...*/" />
+            <marker date="1483997704000" expanded="true" signature="84:392" ph="{...}" />
+            <marker date="1483997704000" expanded="true" signature="267:390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/facadepattern/Demo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
