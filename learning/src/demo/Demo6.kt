@@ -16,6 +16,7 @@ interface Service{
 }
 data class User(val login : String, val id : Long)
 
+//Singleton is a very useful pattern, and Kotlin (after Scala) makes it easy to declare singletons:
 object GitHubService{
     val githubService: Service by lazy {
          Retrofit.Builder().addConverterFactory(GsonConverterFactory.create())
