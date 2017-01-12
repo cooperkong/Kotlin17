@@ -5,9 +5,9 @@ package demo.singleton
  */
 class LazyNotThreadSafe{
     companion object {
-//        val instance by lazy(LazyThreadSafetyMode.NONE){
-//            LazyNotThreadSafe()
-//        }
+        val instance by lazy(LazyThreadSafetyMode.NONE){
+            LazyNotThreadSafe()
+        }
 
         private var instance2 : LazyNotThreadSafe? = LazyNotThreadSafe()
 
