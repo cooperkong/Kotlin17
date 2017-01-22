@@ -89,5 +89,6 @@
     <orderEntry type="library" name="io.reactivex:rxjava:1.2.2" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:retrofit:2.1.0" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:converter-gson:2.1.0" level="project" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.8.0" level="project" />
   </component>
 </module>
