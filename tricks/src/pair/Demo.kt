@@ -8,9 +8,10 @@ fun main (args : Array<String>){
 
     val (width : Int, height : Int) =
             if(name == "wenchao"){
-                Pair(10, 10)
+                10 to 10
             }else
-                Pair(20,20)
+                20 to 20
+//                Pair(20,20)
 
     println(width)
     println(height)
